@@ -1,0 +1,38 @@
+{
+    "name": "skazza/wp-modular-plugin",
+    "description": "A Modular Plugin For Wordpress.",
+    "keywords": [
+        "wp",
+        "wordpress",
+        "wp-plugins",
+        "modular"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skazza",
+            "email": "marianoscazzariello@gmail.com"
+        }
+    ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Skazzino/wordpress-modular-plugin.git"
+        }
+    ],
+    "require": {
+        "skazza/wp-modular-plugin-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPModular\\Modules\\": "modules/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+

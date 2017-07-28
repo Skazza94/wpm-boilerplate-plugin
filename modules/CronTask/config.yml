@@ -1,0 +1,11 @@
+# Handles all the Cron Management.
+# Hooks the events on plugin activation.
+- type: "activation"
+  handler:
+    class: "CronTask\\CronManager"
+    method: "registerEvents"
+
+- type: "deactivation"
+  handler:
+    class: "CronTask\\CronManager"
+    method: "unregisterEvents"
