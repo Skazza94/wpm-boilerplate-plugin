@@ -18,5 +18,5 @@ Progetto base per plugin WordPress da utilizzare con il framework **WP Modular**
   - **PLUGIN_NAME**: slug utilizzato per il file di traduzione in **languages**.
   - **VERSION**: la versione del plugin.
 - Dare il comando **composer install** dalla directory root per installare WP Modular e le sue dipendenze.
-- Aggiungere **cache** al **.gitignore** (non è stata inserita nel boilerplate perchè la cartella non viene mantenuta).
+- Aggiungere la cartella **/cache** al **.gitignore** (non è stata inserita nel boilerplate perchè la cartella non viene mantenuta).
 - Eliminare la cartella **.git** per svincolarlo dal repository del boilerplate.
