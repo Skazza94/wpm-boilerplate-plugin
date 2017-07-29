@@ -9,8 +9,8 @@ class CronManager extends Module
     public function registerEvents()
     {
         foreach(wp_service()->getCronEvents() as $eventName => $eventInterval) {
-            list($recurrence, $hour) = array_pad(explode(' at ', $eventInterval, 2), 2, null);
-            $timestamp = (!is_null($hour)) ? (new \DateTime(date('Y-m-d') . " {$hour}:00", new \DateTimeZone(get_option('timezone_string'))))->getTimestamp() : time();
+            list($recurrence, $hour) = array_pad(explode(' @ ', $eventInterval, 2), 2, null);
+            $timestamp = (!is_null($hour)) ? (new \DateTime("{$hour}:00", new \DateTimeZone(get_option('timezone_string'))))->getTimestamp() : time();
             wp_schedule_event($timestamp, $recurrence, $eventName);
         }
     }
