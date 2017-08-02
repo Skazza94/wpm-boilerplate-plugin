@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7957895837c80579c7d91623ee453b84",
+    "hash": "ada43a45433d4fe969805f7d146d7067",
     "content-hash": "49bb5d138024bd8fb1212c7035524766",
     "packages": [
         {
@@ -782,12 +782,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Skazzino/wordpress-modular-plugin.git",
-                "reference": "3ab4a938d646ea0bff760837ba30cab717d3b72c"
+                "reference": "97c6c0ff236fd086a775b247e10dff46b38c4465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Skazzino/wordpress-modular-plugin/zipball/3ab4a938d646ea0bff760837ba30cab717d3b72c",
-                "reference": "3ab4a938d646ea0bff760837ba30cab717d3b72c",
+                "url": "https://api.github.com/repos/Skazzino/wordpress-modular-plugin/zipball/97c6c0ff236fd086a775b247e10dff46b38c4465",
+                "reference": "97c6c0ff236fd086a775b247e10dff46b38c4465",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +828,7 @@
                 "source": "https://github.com/Skazzino/wordpress-modular-plugin/tree/master",
                 "issues": "https://github.com/Skazzino/wordpress-modular-plugin/issues"
             },
-            "time": "2017-08-01 14:45:55"
+            "time": "2017-08-02 11:23:30"
         },
         {
             "name": "symfony/cache",
