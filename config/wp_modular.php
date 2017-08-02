@@ -6,6 +6,9 @@ return array(
         'ttl' => 0,
         'path' => 'cache'
     ),
+    'l10n' => array(
+    	'path' => 'languages'
+    ),
     'view' => array(
         'supported_formats' => array(
             'html', 'twig', 'php'
