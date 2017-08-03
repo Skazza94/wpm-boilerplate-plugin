@@ -22,3 +22,6 @@ With these steps, you'll make this project a standalone plugin, unbinded from th
 6. Do a **composer install** from the root directory to install WPM and its dependencies.
 7. OPTIONAL: a **composer update** is recommended to refresh dependencies.
 8. Add the **/cache** folder to **.gitignore**.
+
+## Wiki
+Read the [Wiki](https://github.com/Skazzino/wpm-boilerplate-plugin/wiki) to know how to build Modules and use Services.
