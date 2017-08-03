@@ -14,5 +14,5 @@ return array(
             'html', 'twig', 'php'
         ),
         'path' => 'views'
-    )
+    ),
 );

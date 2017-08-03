@@ -3,8 +3,8 @@
   Plugin Name: WP Modular Boilerplate
   Description: Boilerplate Plugin for WP Modular.
   Version: 1.0
-  Author: Man In Web
-  Author URI: http://maninweb.it/
+  Author: Skazza
+  Author URI: https://github.com/Skazzino
  */
 /* Exit if we've reached this page without using WordPress */
 if (!defined('ABSPATH')) {
