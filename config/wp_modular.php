@@ -4,7 +4,8 @@ return array(
     'cache' => array(
         'namespace' => 'wpm',
         'ttl' => 0,
-        'path' => 'cache'
+        'path' => 'cache',
+        'expires' => 90 /* Minutes */
     ),
     'l10n' => array(
     	'path' => 'languages'

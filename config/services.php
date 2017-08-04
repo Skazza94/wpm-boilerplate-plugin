@@ -3,7 +3,6 @@
 return array(
     'config' => \WPModular\Config\ConfigService::class,
     'cache' => \WPModular\Cache\CacheService::class,
-    'cron' => \WPModular\Cron\CronService::class,
     'env' => \WPModular\Environment\EnvironmentService::class,
     'filesystem' => \WPModular\Filesystem\FilesystemService::class,
     'l10n' => \WPModular\L10n\L10nService::class,
