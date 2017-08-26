@@ -1,6 +1,9 @@
 <?php
-/* General Configurations for services */
+/* General Configurations for the Plugin */
 return array(
+    'plugin_slug' => 'wp-modular-boilerplate',
+    'plugin_name' => 'wpm',
+    'version' => '1.0.0',
     'cache' => array(
         'namespace' => 'wpm',
         'ttl' => 0,
