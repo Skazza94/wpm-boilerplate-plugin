@@ -14,4 +14,3 @@ if (!defined('ABSPATH')) {
 /* This file is just an entry point for WordPress. */
 /* Everything is handled from the bootstrap */
 require_once('bootstrap.php');
-?>

@@ -1,7 +1,7 @@
 <?php
-return array(
-    'plugin' => array(
+return [
+    'plugin' => [
         'type' => 'Local',
         'path' => PLUGIN_PATH
-    ),
-);
+    ],
+];

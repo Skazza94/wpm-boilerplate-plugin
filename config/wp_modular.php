@@ -1,22 +1,22 @@
 <?php
 /* General Configurations for the Plugin */
-return array(
+return [
     'plugin_slug' => 'wp-modular-boilerplate',
     'plugin_name' => 'wpm',
     'version' => '1.0.0',
-    'cache' => array(
+    'cache' => [
         'namespace' => 'wpm',
         'ttl' => 0,
         'path' => 'cache',
         'expires' => 90 /* Minutes */
-    ),
-    'l10n' => array(
-    	'path' => 'languages'
-    ),
-    'view' => array(
-        'supported_formats' => array(
+    ],
+    'l10n' => [
+        'path' => 'languages'
+    ],
+    'view' => [
+        'supported_formats' => [
             'html', 'twig', 'php'
-        ),
+        ],
         'path' => 'views'
-    ),
-);
+    ],
+];

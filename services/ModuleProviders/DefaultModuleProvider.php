@@ -7,7 +7,8 @@ use WPModular\Foundation\Modules\ModuleProvider;
 class DefaultModuleProvider extends ModuleProvider
 {
     public function register()
-    {}
+    {
+    }
 
     public function usesNamespace()
     {

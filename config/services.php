@@ -1,6 +1,6 @@
 <?php
 /* Core Services of WP Modular Framework */
-return array(
+return [
     'config' => \WPModular\Config\ConfigService::class,
     'cache' => \WPModular\Cache\CacheService::class,
     'env' => \WPModular\Environment\EnvironmentService::class,
@@ -8,4 +8,4 @@ return array(
     'l10n' => \WPModular\L10n\L10nService::class,
     'url' => \WPModular\Support\Url\UrlService::class,
     'view' => \WPModular\View\ViewService::class,
-);
+];

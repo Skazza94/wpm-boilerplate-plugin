@@ -1,8 +1,8 @@
 <?php
-return array(
+return [
     'config_name' => 'config',
     'config_format' => 'yml',
-    'providers' => array(
+    'providers' => [
         \WPModular\ModuleProviders\DefaultModuleProvider::class,
-    ),
-);
+    ],
+];
