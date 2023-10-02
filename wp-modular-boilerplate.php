@@ -4,7 +4,7 @@
   Description: Boilerplate Plugin for WP Modular.
   Version: 1.0
   Author: Skazza
-  Author URI: https://github.com/Skazzino
+  Author URI: https://github.com/Skazza94
  */
 /* Exit if we've reached this page without using WordPress */
 if (!defined('ABSPATH')) {
