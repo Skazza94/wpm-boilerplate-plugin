@@ -4,7 +4,7 @@ Boilerplate Plugin ready-to-use with **WPM**:
 - `config` folder with all configuration files ready for WPM.
 - `languages` contains the `.po` file to use for translations.
 
-The plugin requires at least **PHP 8.0.2**.
+The plugin requires at least **PHP 7.4.0**.
 
 ## Configuration
 
